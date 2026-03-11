@@ -37,4 +37,4 @@ BEGIN
 END
 
 IDI_ICON1 ICON DISCARDABLE "launcher.ico"
-APP_MANIFEST RT_MANIFEST "launcher.manifest"
+1 RT_MANIFEST "launcher.manifest"
