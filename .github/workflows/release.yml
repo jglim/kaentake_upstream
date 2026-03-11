@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     tags:
     - '*'
-    
+
 
 jobs:
   release:
@@ -28,3 +28,4 @@ jobs:
       with:
         artifacts: "build/Release/*.wz,build/Release/*.dll,build/Release/*.exe"
         allowUpdates: true
+        tag: release
